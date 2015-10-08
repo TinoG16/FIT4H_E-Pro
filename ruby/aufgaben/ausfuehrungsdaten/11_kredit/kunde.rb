@@ -1,7 +1,7 @@
 class Kunde
 	attr_accessor :name
 	attr_accessor :gehalt
-	attr_accessor:adresse
+	attr_accessor :adresse
 
 	def initialize(vorname,zuname)
 		@name = "#{vorname} #{zuname}"
